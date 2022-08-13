@@ -1,0 +1,42 @@
+body {
+    margin:0;
+}
+.flex-cent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-container{
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+}
+.header-footer {
+    width: 100%;
+    height: 15%;
+    background: #94C9FA;
+}
+.mid-section {
+    height: 70%;
+    width: 100%;
+    flex-direction: row;
+}
+.content{
+    height: 100%;
+    width: 80%;
+    background: #FFCCD6;
+}
+.side-panes{
+    height: 100%;
+    width: 10%;
+    background: #98FB98;
+
+}
+.data-display{
+    color: black;
+    font-size: 20px;
+}
+img {
+    height: 32px;
+    width: 32px;
+}
